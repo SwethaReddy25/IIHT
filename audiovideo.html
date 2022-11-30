@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- <script src="../JS/LoginForm.js"></script> -->
+
+</head>
+<body onmousemove="myMouseMove(e)"  id="abc">
+
+    </p>
+
+
+    <audio src="../../November28th/HTML/Oo Antava..Oo Oo Antava song.mp3" controls id="audioCheck"></audio>
+
+<br>
+    <video src="" controls id="videoCheck"></video>
+
+
+
+
+    <script>
+         let f=document.getElementById("para");
+        f.addEventListener("click",paraC,true);
+        function paraC(){
+
+
+
+
+
+
+
+
+        let aud=document.getElementById("audioCheck");
+
+        aud.addEventListener("error",errorH,true);
+        aud.addEventListener("canplay",canplayP,true);
+
+        function errorH(){
+            alert("Error Occured");
+        }
+
+        function canplayP(){
+            aud.style.backgroundColor="green";
+            aud.style.border="1px solid red";
+
+        }
+
+            let vid=document.getElementById("audioCheck");
+
+            vid.addEventListener("error",errorHV,true);
+            vid.addEventListener("canplay",canplayVP,true);
+
+            function errorHV(){
+            alert("Error Occured");
+                }
+
+            function canplayPV(){
+                alert("Can Play");
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
