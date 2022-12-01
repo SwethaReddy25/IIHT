@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <Style>
+
+            .edata{
+
+                padding-top: 20px;
+
+                padding-bottom: 20px;
+
+                padding-left: 10px;
+
+                background-color: rgb(207, 21, 70);
+
+
+
+            }
+
+            form{
+
+                font-size:25px;
+
+            }
+
+            form input{
+
+
+
+            }
+
+
+
+        </Style>
+
+    </head>
+    
+<body>
+ <div class="edata">
+<form name="eform" action="store.html" method="POST">
+<lable for="empid">Employ Id</lable><br>
+ <input type="number" name="empid" id="eid" required> <br>
+ <lable for="firstnm">First Name</lable><br>
+<input type="text" name="name" id="name" required> <br>
+ <lable for="dept">Department</lable><br>
+ <input type="text" name="dept" id="dept" required> <br>
+ <lable for="email">Email</lable><br>
+ <input type="email" name="email" id="email" required> <br>
+ <lable for="usernm">Username</lable><br>
+<input type="text" name="username" id="username" required> <br> 
+
+<lable for="pass">Password</lable><br>
+<input type="password" name="password" minlength="8" required id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"><br>
+<button type="submit">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
+
