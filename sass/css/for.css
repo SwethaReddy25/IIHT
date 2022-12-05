@@ -1,0 +1,29 @@
+.p1 {
+  padding: 20px;
+  color: rgb(26, 232, 29);
+  background-color: palevioletred;
+  width: 100px;
+}
+
+.p2 {
+  padding: 40px;
+  color: rgb(26, 232, 29);
+  background-color: palevioletred;
+  width: 200px;
+}
+
+.p3 {
+  padding: 60px;
+  color: rgb(26, 232, 29);
+  background-color: palevioletred;
+  width: 300px;
+}
+
+.p4 {
+  padding: 80px;
+  color: rgb(26, 232, 29);
+  background-color: palevioletred;
+  width: 400px;
+}
+
+/*# sourceMappingURL=for.css.map */

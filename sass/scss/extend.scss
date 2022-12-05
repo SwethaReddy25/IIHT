@@ -1,0 +1,39 @@
+$color:pink;
+
+$fontsize:34px;
+
+.d1, .d2{
+
+    color: $color;
+
+
+
+}
+
+.d2{
+
+    @extend .d1;
+
+    background-color: plum;
+
+    font-size: $fontsize;
+
+
+
+}
+
+
+
+@media (max-width:600px) {
+
+    .logo{
+
+        width:250px;
+
+        margin:20px;
+
+    }
+
+   
+
+}

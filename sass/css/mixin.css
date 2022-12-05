@@ -1,0 +1,58 @@
+.p1 {
+  color: darkgreen;
+  background-color: bisque;
+  border: 3px solid orange;
+}
+
+.p2 {
+  color: darkgreen;
+  background-color: rgba(255, 255, 102, 0.6);
+}
+
+h1 {
+  color: #AF3445;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: papayawhip;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+}
+
+@keyframes example {
+  0% {
+    color: darkgreen;
+    left: 0px;
+    top: 0px;
+    background-color: purple;
+  }
+  25% {
+    color: darkgreen;
+    left: 200px;
+    top: 0px;
+    background-color: palevioletred;
+  }
+  50% {
+    color: darkgreen;
+    left: 200px;
+    top: 200px;
+    background-color: plum;
+  }
+  75% {
+    color: darkgreen;
+    left: 0px;
+    top: 100px;
+    background-color: pink;
+  }
+  100% {
+    color: darkgreen;
+    left: 0px;
+    top: 0px;
+    background-color: peachpuff;
+  }
+}
+
+/*# sourceMappingURL=mixin.css.map */

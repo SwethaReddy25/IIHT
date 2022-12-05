@@ -1,0 +1,17 @@
+.d1, .d2 {
+  color: pink;
+}
+
+.d2 {
+  background-color: plum;
+  font-size: 34px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 250px;
+    margin: 20px;
+  }
+}
+
+/*# sourceMappingURL=extend.css.map */
