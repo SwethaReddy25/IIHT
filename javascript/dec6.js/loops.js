@@ -7,13 +7,7 @@ const employee={
     salary:50000,
 
     DateOfJoining:new Date('2010-02-11'),
-
-
-
     department:{
-
-
-
         dept_id:1003,
 
         dept_nm:'HR',
