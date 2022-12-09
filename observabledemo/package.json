@@ -1,0 +1,15 @@
+{
+  "name": "observedemo",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "app.js",
+
+  "type":"module",
+
+  "devDependencies": {
+    "rxjs": "^7.6.0"
+  }
+}
