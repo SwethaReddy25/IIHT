@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+
+            background-color: white;
+            border: 0px solid white;
+        }
+        ul{
+            border: 1px solid black;
+            width: 200px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <ol></ol>
+    <ul type="none">
+        <button id="l1" onclick="color(l1)" ><li>apple</li></button><br>
+        <button id="l2" onclick="color(l2)"><li>pineapple</li></button><br>
+        <button id="l3" onclick="color(l3)"><li>mango</li></button><br>
+        <button id="l4" onclick="color(l4)"><li>orange</li></button><br>
+        <button id="l5" onclick="color(l5)"><li>banana</li></button>
+    </ul>
+
+
+    <script>
+        
+
+        function color(e){
+            console.log(e);
+           setTimeout(fn(e),1000);
+       
+
+
+        };
+       function fn(e){
+            (document.getElementById(e.id).style.backgroundColor='blue')
+        }
+
+    </script>
+
+</body>
+</html>
